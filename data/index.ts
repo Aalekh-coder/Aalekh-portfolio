@@ -9,7 +9,8 @@ export const navItems = [
 export const gridItems = [
   {
     id: 1,
-    title: "Daily coding, LinkedIn post KashpeKash - Knowledge Acknowledge Skill Habit",
+    title:
+      "Daily coding, LinkedIn post KashpeKash - Knowledge Acknowledge Skill Habit",
     description: "",
     className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[53vh] lg:",
     imgClassName: "w-full h-full",
@@ -76,7 +77,13 @@ export const projects = [
     title: "Wanderlust: The Ultimate Hotel Management System for Travelers ",
     des: "Wanderlust could be the ideal solution. It not only caters to hotels but also enhances the travel experience by integrating essential features",
     img: "/wanerlust3.jpg",
-    iconLists: ["/bootstrap-4.svg", "/ejs.svg", "/js.svg", "/expressjs.svg", "/mongodb.svg"],
+    iconLists: [
+      "/bootstrap-4.svg",
+      "/ejs.svg",
+      "/js.svg",
+      "/expressjs.svg",
+      "/mongodb.svg",
+    ],
     link: "https://github.com/Aalekh-coder/FullStack-Project-1",
   },
   {
@@ -94,11 +101,13 @@ export const projects = [
   },
   {
     id: 3,
-    title: "AI Image SaaS - Canva Application",
-    des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
-    img: "/p3.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-    link: "https://github.com/adrianhajdin/ai_saas_app",
+    title: "sketchkingston - graphics related marketplace also for freelancers",
+    des: "A marketplace for artists to sell personal art and buyers to discover unique creations",
+    img: "/sketchkingston.png",
+    iconLists: ["/re.svg", "/tail.svg", "/c.svg","/js.svg",
+      "/expressjs.svg",
+      "/mongodb.svg",],
+    link: "https://sketchkingston-1.onrender.com/",
   },
   {
     id: 4,
@@ -217,16 +226,16 @@ export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
-    link:"https://github.com/Aalekh-coder"
+    link: "https://github.com/Aalekh-coder",
   },
   {
     id: 2,
     img: "/twit.svg",
-    link:"https://github.com/Aalekh-coder"
+    link: "https://github.com/Aalekh-coder",
   },
   {
     id: 3,
     img: "/link.svg",
-    link:"https://www.linkedin.com/in/aalekh-kumar-62a749280/"
+    link: "https://www.linkedin.com/in/aalekh-kumar-62a749280/",
   },
 ];
