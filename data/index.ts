@@ -54,9 +54,9 @@ export const gridItems = [
     title: "Currently building a JS Animation library",
     description: "The Inside Scoop",
     className: "md:col-span-3 md:row-span-2",
-    imgClassName: "md:w-96 h-full w-full",
+    imgClassName: "md:w-96 h-full w-full lg:w-full",
     titleClassName: "justify-center md:justify-start lg:justify-center",
-    img: "/kash100.jpg",
+    img: "/ks.jpg",
     spareImg: "",
   },
   {
@@ -121,7 +121,21 @@ export const projects = [
       "/three.svg",
       "/gsap.svg",
     ],
-    link: "https://github.com/adrianhajdin/iphone",
+    link: "https://apple-nu-six.vercel.app",
+  },
+  {
+    id: 5,
+    title: "Brain wave",
+    des: "Brain wave mordan looking landing page",
+    img: "/brainwave.png",
+    iconLists: [
+      "/next copy.svg",
+      "/tail.svg",
+      "/ts.svg",
+      "/three.svg",
+      "/gsap.svg",
+    ],
+    link: "https://brainwave-wine-ten.vercel.app",
   },
 ];
 
